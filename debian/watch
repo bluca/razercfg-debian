@@ -1,0 +1,3 @@
+version=3
+opts=dversionmangle=s/\+ds\d+$//,repacksuffix=+ds,pgpmode=auto \
+https://bues.ch/razercfg/razercfg-(\d\S+)\.(?:tgz|tbz2|txz|tar\.(?:gz|bz2|xz))

@@ -1,6 +1,8 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: razercfg
 Source: https://bues.ch/h/razercfg
+Files-Excluded: debian
+Comment: repack to remove upstream's debian/ directory
 
 Files: *
 Copyright: 2008-2017 Michael Buesch <m@bues.ch>
