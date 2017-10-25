@@ -1,5 +1,5 @@
-razercfg (0.39+ds-1) UNRELEASED; urgency=medium
+razercfg (0.39+ds-1) unstable; urgency=medium
 
   * Initial packaging. (Closes: #587987)
 
- -- Michael Büsch <m@bues.ch>  Tue, 15 Jul 2014 11:25:47 +0200
+ -- Luca Boccassi <bluca@debian.org>  Wed, 25 Oct 2017 21:29:08 +0100
