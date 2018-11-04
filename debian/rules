@@ -12,10 +12,13 @@ override_dh_clean:
 	rm -rf ui/build ui/pyrazer/__pycache__ ui/setup.py
 
 override_dh_install:
-	dh_install --fail-missing --exclude=librazer.a
+	dh_install --exclude=librazer.a
 
 override_dh_installinit:
 	dh_installinit --name=razerd
+
+override_dh_missing:
+	dh_missing --fail-missing
 
 %:
 	dh $@ --with systemd --with python3 --buildsystem=cmake
