@@ -1,3 +1,9 @@
+razercfg (0.40+ds-1) UNRELEASED; urgency=medium
+
+  * New upstream release 0.40.
+
+ -- Luca Boccassi <bluca@debian.org>  Sun, 04 Nov 2018 14:25:41 +0000
+
 razercfg (0.39+ds-3) unstable; urgency=medium
 
   * Switch razercfg to linux-any, itt uses udev heavily which is not
