@@ -11,6 +11,7 @@ Build-Depends: debhelper (>= 10),
  systemd,
  udev,
 Standards-Version: 3.9.8
+Rules-Requires-Root: no
 Vcs-Git: https://github.com/bluca/razercfg-debian
 Vcs-Browser: https://github.com/bluca/razercfg-debian
 Homepage: https://bues.ch/h/razercfg
