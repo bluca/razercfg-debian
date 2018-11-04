@@ -1,6 +1,7 @@
 razercfg (0.40+ds-1) UNRELEASED; urgency=medium
 
   * New upstream release 0.40.
+  * Drop 0001-Update-to-PyQt5.patch, merged upstream.
 
  -- Luca Boccassi <bluca@debian.org>  Sun, 04 Nov 2018 14:25:41 +0000
 
