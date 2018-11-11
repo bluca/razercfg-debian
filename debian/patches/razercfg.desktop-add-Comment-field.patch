@@ -1,0 +1,27 @@
+From 1379ab37a731342fd5bf3a13f625761923765bbe Mon Sep 17 00:00:00 2001
+From: Luca Boccassi <bluca@debian.org>
+Date: Sun, 11 Nov 2018 13:11:07 +0000
+Subject: [PATCH] razercfg.desktop: add Comment field
+
+Debian's CI's appstream suggests to add a Comment to the desktop
+files with a short description as it is useful for GUI's users.
+
+https://appstream.debian.org/sid/main/issues/qrazercfg.html
+
+Signed-off-by: Luca Boccassi <bluca@debian.org>
+---
+ ui/razercfg.desktop.template | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/ui/razercfg.desktop.template b/ui/razercfg.desktop.template
+index bce227f..10d067c 100644
+--- a/ui/razercfg.desktop.template
++++ b/ui/razercfg.desktop.template
+@@ -4,3 +4,4 @@ Categories=Application;System;
+ Name=Razer Configuration
+ Exec=@CMAKE_INSTALL_PREFIX@/bin/qrazercfg
+ Icon=@CMAKE_INSTALL_PREFIX@/share/icons/hicolor/scalable/apps/razercfg.svg
++Comment=Graphical Razer device configuration tool
+-- 
+2.19.1
+
