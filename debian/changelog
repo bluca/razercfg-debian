@@ -1,3 +1,9 @@
+razercfg (0.41+ds-1) UNRELEASED; urgency=medium
+
+  * New upstream release 0.41.
+
+ -- Luca Boccassi <bluca@debian.org>  Thu, 23 Jan 2020 22:04:52 +0000
+
 razercfg (0.40+ds-1) unstable; urgency=medium
 
   * New upstream release 0.40.
