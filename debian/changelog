@@ -1,8 +1,12 @@
-razercfg (0.41+ds-1) UNRELEASED; urgency=medium
+razercfg (0.41+ds-1) unstable; urgency=medium
 
   * New upstream release 0.41.
+  * Bump Standards-Version to 4.5.0, no changes.
+  * Drop Add-the-working-directory-to-sys.path-to-fix-ftbfs.patch and
+    razercfg.desktop-add-Comment-field.patch, merged upstream.
+  * Install tmpfiles in razercfg.
 
- -- Luca Boccassi <bluca@debian.org>  Thu, 23 Jan 2020 22:04:52 +0000
+ -- Luca Boccassi <bluca@debian.org>  Thu, 23 Jan 2020 22:08:58 +0000
 
 razercfg (0.40+ds-1) unstable; urgency=medium
 
