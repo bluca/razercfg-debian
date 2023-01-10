@@ -12,7 +12,7 @@ Build-Depends: debhelper-compat (= 13),
  udev,
 Standards-Version: 4.5.0
 Rules-Requires-Root: no
-Vcs-Git: https://github.com/bluca/razercfg-debian
+Vcs-Git: https://github.com/bluca/razercfg-debian.git
 Vcs-Browser: https://github.com/bluca/razercfg-debian
 Homepage: https://bues.ch/h/razercfg
 
