@@ -12,6 +12,8 @@ execute_after_dh_clean:
 
 override_dh_install:
 	dh_install --exclude=librazer.a
+	dh_install -prazercfg "$$(pkg-config --variable=systemdsystemunitdir systemd | sed s,^/,,)/razerd.service"
+	dh_install -prazercfg "$$(pkg-config --variable=udevdir udev | sed s,^/,,)/rules.d/80-razer.rules"
 
 override_dh_installinit:
 	dh_installinit --name=razerd
