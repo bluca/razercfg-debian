@@ -1,3 +1,24 @@
+razercfg (0.42+ds-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster (oldstable)
+  * Bump debhelper from old 10 to 13. + debian/rules: Drop --fail-missing
+    argument to dh_missing, which is now the default.
+  * Set debhelper-compat version in Build-Depends.
+  * Use canonical URL in Vcs-Git.
+  * Update standards version to 4.6.2, no changes needed.
+
+  [ Luca Boccassi ]
+  * d/rules: use execute_after instead of override
+  * Drop dependency on lsb-base, deprecated
+  * Build-depend on systemd-dev for pkg-config file instead of systemd
+
+  [ Helmut Grohne ]
+  * Fix FTBFS when systemd.pc changes systemdsystemunitdir. (Closes:
+    #1052702)
+
+ -- Luca Boccassi <bluca@debian.org>  Tue, 26 Sep 2023 13:02:29 +0100
+
 razercfg (0.42+ds-1) unstable; urgency=medium
 
   * New upstream release 0.42.
