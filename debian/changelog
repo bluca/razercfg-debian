@@ -1,3 +1,10 @@
+razercfg (0.42+ds-3) unstable; urgency=medium
+
+  * Use env var in .install instead of override to fix FTBFS for arch: all
+  * Drop build dependency on udev, pkg-config file is in systemd-dev
+
+ -- Luca Boccassi <bluca@debian.org>  Tue, 26 Sep 2023 16:29:57 +0100
+
 razercfg (0.42+ds-2) unstable; urgency=medium
 
   [ Debian Janitor ]
