@@ -9,7 +9,6 @@ Build-Depends: debhelper-compat (= 13),
  python3-dev,
  dh-python,
  systemd-dev,
- udev,
 Standards-Version: 4.6.2
 Rules-Requires-Root: no
 Vcs-Git: https://github.com/bluca/razercfg-debian.git
