@@ -17,6 +17,7 @@ Homepage: https://bues.ch/h/razercfg
 
 Package: razercfg
 Architecture: linux-any
+Pre-Depends: ${misc:Pre-Depends},
 Depends: ${python3:Depends}, ${shlibs:Depends}, ${misc:Depends}
 Suggests: python3-pyqt5
 Description: Razer device configuration tool
