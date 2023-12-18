@@ -1,3 +1,10 @@
+razercfg (0.42+ds-4) unstable; urgency=medium
+
+  * Add missing Pre-depends to fix Lintian warning
+  * Pick up files from /usr/local/ (Closes: #1054799)
+
+ -- Luca Boccassi <bluca@debian.org>  Mon, 18 Dec 2023 12:51:10 +0100
+
 razercfg (0.42+ds-3) unstable; urgency=medium
 
   * Use env var in .install instead of override to fix FTBFS for arch: all
