@@ -2,8 +2,8 @@ razer.conf /etc
 etc/pm/sleep.d/50-razer /etc/pm/sleep.d
 ${env:systemdsystemunitdir}
 ${env:udevrulesdir}
-usr/lib/python3*/site-packages/* usr/lib/python3/dist-packages
+usr/local/lib/python3.11/dist-packages usr/lib/python3/dist-packages
 usr/lib/tmpfiles.d/razerd.conf
 usr/bin/razerd /usr/bin
-usr/bin/razercfg /usr/bin
+usr/local/bin/razercfg /usr/bin
 usr/bin/razer-gamewrapper /usr/bin
