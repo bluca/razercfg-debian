@@ -14,9 +14,22 @@ execute_after_dh_clean:
 
 override_dh_install:
 	dh_install --exclude=librazer.a
+	# The upstream tarball has several files with the timestamp set at epoch, fix them
+	touch -m --no-create --date="$(shell dpkg-parsechangelog -Sdate)" \
+		$(CURDIR)/debian/razercfg/etc/razer.conf \
+		$(CURDIR)/debian/razercfg/usr/bin/razer-gamewrapper \
+		$(CURDIR)/debian/razercfg/usr/lib/python3/dist-packages/pyrazer/__init__.py \
+		$(CURDIR)/debian/razercfg/usr/lib/python3/dist-packages/pyrazer/main.py \
+		$(CURDIR)/debian/razercfg/usr/lib/python3/dist-packages/pyrazer/ui.py \
+		$(CURDIR)/debian/razercfg/usr/lib/tmpfiles.d/razerd.conf \
+		$(CURDIR)/debian/qrazercfg/usr/share/icons/hicolor/scalable/apps/razercfg-alt.svg \
+		$(CURDIR)/debian/qrazercfg/usr/share/icons/hicolor/scalable/apps/razercfg-snake.svg \
+		$(CURDIR)/debian/qrazercfg/usr/share/icons/hicolor/scalable/apps/razercfg.svg
 
 override_dh_installinit:
 	dh_installinit --name=razerd
+	touch -m --no-create --date="$(shell dpkg-parsechangelog -Sdate)" \
+		$(CURDIR)/debian/razercfg/etc/init.d/razerd
 
 %:
 	dh $@ --with python3 --buildsystem=cmake
