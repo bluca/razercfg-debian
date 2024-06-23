@@ -1,3 +1,14 @@
+razercfg (0.43-1) unstable; urgency=medium
+
+  * Bump Standards-Version to 4.7.0, no changes
+  * Fix dh_install destination path (Closes: #1059997)
+  * Switch to pkgconf
+  * Fix superfluous-file-pattern Lintian warning
+  * Pick udev rule from /etc/
+  * New upstream release 0.43.
+
+ -- Luca Boccassi <bluca@debian.org>  Sun, 23 Jun 2024 14:13:39 +0100
+
 razercfg (0.42+ds-4) unstable; urgency=medium
 
   * Add missing Pre-depends to fix Lintian warning
