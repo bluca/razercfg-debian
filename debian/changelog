@@ -1,3 +1,9 @@
+razercfg (0.43-2) unstable; urgency=medium
+
+  * Reset mtime to changelog date for files at epoch (Closes: #1074141)
+
+ -- Luca Boccassi <bluca@debian.org>  Sun, 23 Jun 2024 18:12:36 +0100
+
 razercfg (0.43-1) unstable; urgency=medium
 
   * Bump Standards-Version to 4.7.0, no changes
