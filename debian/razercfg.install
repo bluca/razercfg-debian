@@ -1,7 +1,7 @@
 razer.conf /etc
 etc/pm/sleep.d/50-razer /etc/pm/sleep.d
 ${env:systemdsystemunitdir}
-${env:udevrulesdir}
+etc/udev/rules.d ${env:udevrulesdir}
 usr/local/lib/python3.11/dist-packages usr/lib/python3
 usr/lib/tmpfiles.d/razerd.conf
 usr/bin/razerd /usr/bin
