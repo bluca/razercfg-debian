@@ -5,7 +5,7 @@ Priority: optional
 Build-Depends: debhelper-compat (= 13),
  cmake,
  libusb-1.0-0-dev,
- pkg-config,
+ pkgconf,
  python3-dev,
  dh-python,
  systemd-dev,
