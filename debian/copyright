@@ -42,7 +42,7 @@ License: GPL-2+
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
-Files: icons/*
+Files: icons/
 Copyright:  2016 Jan Stümmel
 License: CC-BY-4.0
  Creative Commons Attribution 4.0 International Public License
