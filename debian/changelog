@@ -1,3 +1,9 @@
+razercfg (0.43-3) unstable; urgency=medium
+
+  * Use wildcard in dh_install file (Closes: #1074755)
+
+ -- Luca Boccassi <bluca@debian.org>  Sun, 14 Jul 2024 15:15:42 +0100
+
 razercfg (0.43-2) unstable; urgency=medium
 
   * Reset mtime to changelog date for files at epoch (Closes: #1074141)
