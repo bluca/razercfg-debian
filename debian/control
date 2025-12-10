@@ -1,5 +1,5 @@
 Source: razercfg
-Maintainer: Luca Boccassi <bluca@debian.org>
+Maintainer: Debian QA Group <packages@qa.debian.org>
 Section: misc
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
