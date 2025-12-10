@@ -1,3 +1,9 @@
+razercfg (0.43-5) unstable; urgency=medium
+
+  * Orphan package
+
+ -- Luca Boccassi <bluca@debian.org>  Wed, 10 Dec 2025 17:58:36 +0000
+
 razercfg (0.43-4) unstable; urgency=medium
 
   * Add build dependency on python3-setuptools (Closes: #1080860)
